@@ -8,7 +8,7 @@ function TodoForm({addTodo}) {
         id: "",
         task: "",
         complted: false
-    });
+    }); 
 
     function HandleTaskInputChange(e) {
         setTodo({ ...todo, task: e.target.value})
